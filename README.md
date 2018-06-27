@@ -1,22 +1,22 @@
-# Book Name
+# Hands-On Microservices with Node.js
 
-<a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/developing-microservices-nodejs?utm_source=GitHub&utm_medium=repository&utm_campaign=978-1-78862-021-5"><img src="https://www.packtpub.com/sites/default/files/7406OS_.jpg" alt="Hands-On Microservices with Node.js" height="256px" align="right"></a>
 
-This is the code repository for [Book Name](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Hands-On Microservices with Node.js](https://www.packtpub.com/web-development/developing-microservices-nodejs?utm_source=GitHub&utm_medium=repository&utm_campaign=978-1-78862-021-5), published by Packt.
 
-**Subtitle from EPIC**
+**Build, test, and deploy robust microservices JavaScript**
 
 ## What is this book about?
-First Paragraph from the Long Description
+Microservices enable us to develop software in small pieces that work together but can be developed separately; this is one reason why enterprises have started embracing them. For the past few years, Node.js has emerged as a strong candidate for developing microservices because of its ability to increase your productivity and the performance of your applications.
 
 This book covers the following exciting features: <First 5 What you'll learn points>
-* Learn how to manage users, groups, and permissions
-* Encrypt and decrypt disks with Linux Unified Key Setup /Luks
-* Setup SSH for remote access, and connect it to other nodes
-* Understand how to add, remove, and search for packages
-* Use NFS and Samba to share directories with other users
+* Learn microservice concepts
+* Explore different service architectures, such as Hydra and Seneca
+* Understand how to use containers and the process of testing
+* Use Docker and Swarm for continuous deployment and scaling
+* Learn how to geographically spread your microservices
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788-620216) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
@@ -26,57 +26,42 @@ alt="https://www.packtpub.com/" border="5" /></a>
 All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
-```
-if (test expression)
-{
-  Statement upon condition is true
+function start() {
+this.uptime = process.uptime();
+setTimeout(() => {
+console.log(this.uptime);
+}, 5000);
 }
-```
+start();
 
 **Following is what you need for this book:**
-Copy and paste the Audience section from the EPIC.
+This book is for JavaScript developers seeking to utilize their skills to build microservices and move away from the monolithic architecture. Prior knowledge of Node.js is assumed.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 2-6).
 
 ### Software and Hardware List
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
+| 2-6      |Node.js 8 or above                   | Windows, Mac OS X, and Linux (Any) |
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
+### Related products
+* Node.js Web Development - Fourth Edition [[Packt]](https://www.packtpub.com/web-development/nodejs-web-development-fourth-edition?utm_source=GitHub&utm_medium=repository&utm_campaign=9781788626859) [[Amazon]](https://www.amazon.com/dp/1788626850)
 
-### Related products <Paste books from the Other books you may enjoy section>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Mastering Node.js - Second Edition [[Packt]](https://www.packtpub.com/web-development/mastering-nodejs-second-edition?utm_source=GitHub&utm_medium=repository&utm_campaign=9781785888960) [[Amazon]](https://www.amazon.com/dp/178588896X)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
-
-## Get to Know the Author(s)
-**Author Name**
-Bio
-
-**Author Name**
-Bio
+## Get to Know the Author
+**Diogo Resende**
+Diogo Resende is a developer with more than 15 years of experience. He has worked with
+Node.js almost from the beginning. His computer education and experience in many
+industries and telecommunication projects have given him a wide background knowledge
+of other architecture components and approaches that influence the overall performance of
+an application.
 
 
 ## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
+* [Node.js High Performance](https://www.packtpub.com/web-development/nodejs-high-performance?utm_source=GitHub&utm_medium=repository&utm_campaign=9781785286148)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
