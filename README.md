@@ -9,7 +9,7 @@ This is the code repository for [Hands-On Microservices with Node.js](https://ww
 ## What is this book about?
 Microservices enable us to develop software in small pieces that work together but can be developed separately; this is one reason why enterprises have started embracing them. For the past few years, Node.js has emerged as a strong candidate for developing microservices because of its ability to increase your productivity and the performance of your applications.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Learn microservice concepts
 * Explore different service architectures, such as Hydra and Seneca
 * Understand how to use containers and the process of testing
