@@ -26,6 +26,7 @@ alt="https://www.packtpub.com/" border="5" /></a>
 All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
+```
 function start() {
 this.uptime = process.uptime();
 setTimeout(() => {
@@ -33,6 +34,7 @@ console.log(this.uptime);
 }, 5000);
 }
 start();
+```
 
 **Following is what you need for this book:**
 This book is for JavaScript developers seeking to utilize their skills to build microservices and move away from the monolithic architecture. Prior knowledge of Node.js is assumed.
@@ -53,7 +55,7 @@ With the following software and hardware list you can run all code files present
 
 ## Get to Know the Author
 **Diogo Resende**
-Diogo Resende is a developer with more than 15 years of experience. He has worked with
+is a developer with more than 15 years of experience. He has worked with
 Node.js almost from the beginning. His computer education and experience in many
 industries and telecommunication projects have given him a wide background knowledge
 of other architecture components and approaches that influence the overall performance of
