@@ -1,0 +1,27 @@
+{
+  "name": "imagini-service",
+  "version": "0.0.1",
+  "author": "Diogo Resende <dresende@thinkdigital.pt>",
+  "private": true,
+  "scripts": {
+    "start": "node imagini-service.js",
+    "debug": "node-debug imagini-service.js --debug-brk",
+    "test": "mocha specs --reporter spec",
+    "docker": "node scripts/docker.js"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+"sharp": "^0.19.0",
+"body-parser": "^1.18.2",
+"fwsp-config": "1.1.5",
+"hydra-express": "1.5.5",
+"fwsp-server-response": "2.2.6"},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.16.0",
+    "mocha": "3.2.0",
+    "superagent": "3.5.2"
+  }
+}

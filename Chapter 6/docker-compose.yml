@@ -1,0 +1,22 @@
+version: "3"
+networks:
+    imagini:
+services:
+    database:
+        image: mysql:5.7
+        networks:
+        - imagini
+        volumes:
+        - ${PWD}/mysql:/var/lib/mysql
+        environment:
+            MYSQL_DATABASE: imagini
+            MYSQL_ROOT_PASSWORD: secret
+    service:
+        image: imagini:0.0.5
+        networks:
+        - imagini
+        volumes:
+        - ${PWD}/settings.json:/opt/app/settings.json
+        ports:
+        - "80:3000"
+        restart: on-failure

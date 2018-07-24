@@ -1,0 +1,15 @@
+2018-03-17T21:10:12.717835000 0.052797s notice: Recursively removing directory /Users/dresende/Documents/Pakt Pub/Node.js Microservices 2nd Edition/Chapter04/Express/MySQL/rethinkdb_data/tmp
+2018-03-17T21:10:12.720129000 0.055094s notice: Initializing directory /Users/dresende/Documents/Pakt Pub/Node.js Microservices 2nd Edition/Chapter04/Express/MySQL/rethinkdb_data
+2018-03-17T21:10:12.720268000 0.055229s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/dresende/Documents/Pakt Pub/Node.js Microservices 2nd Edition/Chapter04/Express/MySQL/rethinkdb_data' did not already exist or is empty.)
+2018-03-17T21:10:12.720330000 0.055291s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-03-17T21:10:12.726480000 0.061441s notice: Running on Darwin 17.4.0 x86_64
+2018-03-17T21:10:12.726542000 0.061503s notice: Loading data from directory /Users/dresende/Documents/Pakt Pub/Node.js Microservices 2nd Edition/Chapter04/Express/MySQL/rethinkdb_data
+2018-03-17T21:10:12.793503000 0.128462s info: Automatically using cache size of 213 MB
+2018-03-17T21:10:12.794271000 0.129231s notice: Listening for intracluster connections on port 29015
+2018-03-17T21:10:12.797103000 0.132062s notice: Listening for client driver connections on port 28015
+2018-03-17T21:10:12.797285000 0.132244s notice: Listening for administrative HTTP connections on port 8080
+2018-03-17T21:10:12.797295000 0.132254s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-03-17T21:10:12.797304000 0.132263s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-03-17T21:10:12.797307000 0.132266s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-03-17T21:10:12.797314000 0.132272s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-03-17T21:10:12.797320000 0.132279s notice: Server ready, "nazgul_lan_nr9" 0448bc40-4460-4590-9ab3-b2ab6afab398

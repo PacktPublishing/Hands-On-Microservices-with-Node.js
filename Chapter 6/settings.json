@@ -1,0 +1,3 @@
+{
+	"db": "mysql://root:secret@database/imagini"
+}

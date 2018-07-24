@@ -1,0 +1,19 @@
+{
+  "name": "Seneca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "async"                 : "2.6.0",
+      "seneca"                : "3.4.3",
+      "seneca-basic"          : "0.5.1",
+      "seneca-entity"         : "2.0.2",
+      "seneca-jsonfile-store" : "1.0.1"
+  }
+}

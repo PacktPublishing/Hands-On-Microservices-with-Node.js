@@ -1,0 +1,16 @@
+{
+  "name": "example01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "micro": "^9.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "micro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

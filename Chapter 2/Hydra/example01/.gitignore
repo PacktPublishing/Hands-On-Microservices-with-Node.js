@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+*.pem
+*.rsa
+node_modules
+config/config.json
+*/public
