@@ -1,6 +1,6 @@
 # Hands-On Microservices with Node.js
 
-<a href="https://www.packtpub.com/web-development/developing-microservices-nodejs?utm_source=GitHub&utm_medium=repository&utm_campaign=978-1-78862-021-5"><img src="https://www.packtpub.com/sites/default/files/7406OS_.jpg" alt="Hands-On Microservices with Node.js" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/hands-microservices-nodejs?utm_source=GitHub&utm_medium=repository&utm_campaign=978-1-78862-021-5"><img src="https://www.packtpub.com/sites/default/files/9781788620215%20-%20Copy.png" alt="Hands-On Microservices with Node.js" height="256px" align="right"></a>
 
 This is the code repository for [Hands-On Microservices with Node.js](https://www.packtpub.com/web-development/hands-microservices-nodejs), published by Packt.
 
