@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/hands-on-microservices-with-node-js/9781788620215)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1788620216).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Hands-On Microservices with Node.js
 
 <a href="https://www.packtpub.com/web-development/hands-microservices-nodejs?utm_source=GitHub&utm_medium=repository&utm_campaign=978-1-78862-021-5"><img src="https://www.packtpub.com/sites/default/files/9781788620215%20-%20Copy.png" alt="Hands-On Microservices with Node.js" height="256px" align="right"></a>
